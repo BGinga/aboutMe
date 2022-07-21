@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-          <Image src={"/images/under.png"} width={200} height={100} layout={"responsive"} />
+          <Image src="/under.png" layout='fill'/>
       </main>
 
       <footer className={styles.footer}>
