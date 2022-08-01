@@ -39,8 +39,24 @@ a {
   z-index: 1030;
 }
 
+.footer{
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 5px;
+}
+
 .navLink:hover{
   color: white;
+  font-weight: 700;
+}
+
+.linkTec{
+  color: #f2a823;
+}
+
+.linkTec:hover{
   font-weight: 700;
 }
 
@@ -52,5 +68,21 @@ a {
 
   .customFont{
     font-size: large;
+  }
+
+  .footer{
+    font-size: 12px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body{
+    background-color: black !important;
+  }
+  p.customFont{
+    color: #f2a823 !important;
+  }
+  p{
+    color: white !important;
   }
 }

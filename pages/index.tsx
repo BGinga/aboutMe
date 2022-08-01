@@ -10,6 +10,7 @@ const Index = ({children}:any) => {
         <Head>
           <title>Bralink&apos;s App</title>
           <meta name="description" content="Perfil y proyectos de Brayan Morales" />
+          <meta name="theme-color" content="#11426a"></meta>
           <link rel="icon" href="/favicon.ico" />
         </Head>
       </div>
