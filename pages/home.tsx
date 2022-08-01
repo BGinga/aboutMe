@@ -11,7 +11,7 @@ export const Home: NextPage = () => {
                         <p className="customFont" style={{paddingLeft: '5%'}}>SOBRE MI</p>
                     </Col>
                     <Col md={3} xs={3} style={{display: 'flex', paddingTop: '20px', alignItems: 'end'}}>
-                        <Image src={"/images/hello.png"} width={400} fluid/>
+                        <Image src={"/images/hello.png"} width={400} fluid alt="hello"/>
                     </Col>
                     <Col md={9} xs={9}>
                         <div style={{fontWeight: '500', padding: '15px', backgroundColor: "rgba(17,66,106, 0.3)", borderRadius: '1.3em 1.3em 1.3em 0'}}>
@@ -44,7 +44,7 @@ export const Home: NextPage = () => {
                        
                     </Col>
                     <Col md={3} xs={3} style={{display: 'flex', paddingTop: '20px', alignItems: 'end'}}>
-                        <Image src={"/images/shy.png"} width={400} fluid/>
+                        <Image src={"/images/shy.png"} width={400} fluid alt="shy"/>
                     </Col>
                 </Row>
 
@@ -53,7 +53,7 @@ export const Home: NextPage = () => {
                         <p className="customFont" style={{paddingLeft: '5%'}}>MI EXPERIENCIA</p>
                     </Col>
                     <Col md={3} xs={3} style={{display: 'flex', paddingTop: '20px', alignItems: 'end'}}>
-                        <Image src={"/images/thinking.png"} width={400} fluid/>
+                        <Image src={"/images/thinking.png"} width={400} fluid alt="thinking"/>
                     </Col>
                     <Col md={9} xs={9}>
                         <div style={{fontWeight: '500', padding: '20px', backgroundColor: "rgba(17,66,106, 0.3)", borderRadius: '1.3em 1.3em 1.3em 0'}}>
@@ -72,7 +72,7 @@ export const Home: NextPage = () => {
                             <p>
                                 <span style={{display: 'inline-block', fontWeight: 'bold',color: '#f2a823'}}>De lado del BackEnd: </span>
                                 <span style={{display: 'inline-block'}}>
-                                    Lenguajes como <b style={{color: '#f2a823'}}>PHP, Python y Java</b>, junto con el conocimiento y consumo de API's diversas como <b style={{color: '#f2a823'}}>Google Api's y Torak Api's </b> 
+                                    Lenguajes como <b style={{color: '#f2a823'}}>PHP, Python y Java</b>, junto con el conocimiento y consumo de API&apos;s diversas como <b style={{color: '#f2a823'}}>Google Api&apos;s y Torak Api&apos;s </b> 
                                 </span>
                             </p>
                             <p>
@@ -100,7 +100,7 @@ export const Home: NextPage = () => {
                        
                     </Col>
                     <Col md={3} xs={3} style={{display: 'flex', paddingTop: '20px', alignItems: 'end'}}>
-                        <Image src={"/images/fly.png"} width={400} fluid/>
+                        <Image src={"/images/fly.png"} width={400} fluid alt="fly"/>
                     </Col>
                 </Row>
             </Container>
